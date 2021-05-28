@@ -1,0 +1,100 @@
+footer {
+    background: url(../images/bg_footer_ny.jpg) no-repeat top center, #FDF0D3;
+    padding: 70px 0 0px;
+    border-top: 1px solid #e8d4b5;
+    background-size: cover;
+}
+
+footer p,
+footer .signature p span,
+footer .list-icons.footer_menu li > a {
+	color: white;
+}
+
+footer .signature {
+    border-top: 1px solid #fff;
+}
+
+.svg-snowscene {
+	width: 100%;
+	margin-top: -50px;
+}
+
+.snow {
+	fill: #fff;
+	animation-name: snowing;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}
+.snow:nth-child(2n) {
+	animation-delay: 1.5s;
+}
+.snow:nth-child(3n) {
+	animation-delay: 2.3s;
+	animation-duration: 3.3s;
+}
+.snow:nth-child(4n) {
+	animation-delay: 0.8s;
+	animation-duration: 3.2s;
+}
+.snow:nth-child(5n) {
+	animation-delay: 2.8s;
+}
+
+@keyframes snowing {
+	0% {
+		fill-opacity: 1;
+	}
+	100% {
+		fill-opacity: 0;
+		transform: translateY(200px);
+	}
+}
+
+#garland {
+position: absolute;
+top: 70px;
+left: 0;
+background-image: url(../images/christmas.png);
+height: 36px;
+width: 100%;
+overflow: hidden;
+z- index: 99
+}
+
+#nums_1 {
+padding: 100px
+}
+
+.garland_1 {
+background-position: 0 0
+}
+
+.garland_2 {
+background-position: 0 -36px
+}
+
+.garland_3 {
+background-position: 0 -72px
+}
+
+.garland_4 {
+background-position: 0 -108px
+}
+
+.new-year {
+    background: url(../images/video/slid_ny.jpg);
+    background-position: 52% 0%;
+    text-align: center;
+}
+
+.new-year {
+	max-height: 1080px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+    text-align: center;
+    background-size: cover !important;
+}

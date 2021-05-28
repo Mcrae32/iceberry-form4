@@ -1,0 +1,38 @@
+.wrap-select-form {
+    margin-bottom: 20px;
+}
+
+.wrap-select-form .nav li{
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    outline: 1px solid transparent;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 2px 3px 0px rgb(231 221 212);
+    -moz-box-shadow: 0px 2px 3px 0px rgb(231, 221, 212);
+    box-shadow: 0px 2px 3px 0px rgb(231 221 212);
+}
+
+.wrap-select-form .nav-pills>li>a,
+.wrap-select-form .nav-pills>li>a,
+.wrap-select-form .nav-pills>li>a {
+    font-size:0.75em;
+    letter-spacing: 0.05em;
+    color: #323232;
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.wrap-select-form .nav-pills>li.active>a, 
+.wrap-select-form .nav-pills>li.active>a:focus, 
+.wrap-select-form .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #e31a4d;
+}
+
+.reviews {
+    margin-bottom: 30px;
+}
